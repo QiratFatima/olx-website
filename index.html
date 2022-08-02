@@ -1,0 +1,534 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - Buy and Sell for free anywhere in Pakistan with OLX online classifieds </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://www.olx.com.pk/assets/favicon-16x16.ec663eb59c14f769c42c1a2beed283ca.png">
+</head>
+
+<body>
+    <div id="top">
+        <div id="firstnav">
+            <ul>
+                <li><a target="_blank" href="https://www.olx.com.pk/"><img id="olx"
+                            src="https://d1.awsstatic.com/Customer%20References%20Directory%20Logos/OLX_Logo.91b6e0ec5e02dc72f398d8859ac8989eb9d5c800.png"
+                            alt=""></a> </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a target="_blank" href="https://www.olx.com.pk/motors/"><img id="motor"
+                            src="https://th.bing.com/th/id/OIP.2U-KWbgHrTyBKxsigBmHeAHaFs?w=198&h=180&c=7&r=0&o=5&pid=1.7"
+                            alt="">MOTORS</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a target="_blank" href="https://www.olx.com.pk/properties/"><img id="property"
+                            src="data:image/jpeg;base64,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"
+                            alt="">PROPERTY</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div id="secondnav">
+
+            <ul>
+                <li><img id="olx2"
+                        src="https://th.bing.com/th/id/OIP.TFILIi0utSEp4NQD0ip5uwHaE8?w=272&h=180&c=7&r=0&o=5&pid=1.7"
+                        alt=""></li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><select id="select1">
+                        <option selected> Pakistan</option>
+                        <option id="location"> Use Current Location</option>
+                        <option disabled>
+                            &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;
+                        </option>
+                        <option>See Ads In all Pakistan</option>
+                        <option disabled>
+                            &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;
+                        </option>
+                        <option disabled id="choose">CHOOSE REGION</option>
+                        <option disabled></option>
+                        <option>Azad Kashmir,Pakistan</option>
+                        <option>Balochistan,Pakistan</option>
+                        <option>Islamabad Capital Territory,Pakistan</option>
+                        <option>Khyber Pakhtunkhwa,Pakistan</option>
+                        <option>Northern Areas,Pakistan</option>
+                        <option>Punjab,Pakistan</option>
+                        <option>Sindh,Pakistan</option>
+
+                    </select></li>
+            </ul>
+        </div>
+
+
+
+        <div>
+            <input type="search" placeholder="Find Cars, Mobile Phones and more.." id="input">
+        </div>
+
+
+
+        <button id="button1"><a target="_blank" href="./signup.html">
+                <h6>Login</h6>
+            </a></button>
+        <button id="button2">
+            &nbsp;&nbsp;&nbsp;+Sell&nbsp;&nbsp;&nbsp;</button>
+
+    </div>
+
+
+
+    <div>
+        <ul class="categories">
+            <li id="all">All Categories</li>
+            &nbsp;
+            &nbsp;
+            <li id="mobile">Mobile Phones</li>
+            &nbsp;
+            &nbsp;
+            <li id="cars">Cars</li>
+            &nbsp;
+            &nbsp;
+            <li id="motorcycle">Motorcycles</li>
+            &nbsp;
+            &nbsp;
+            <li id="house">Houses</li>
+            &nbsp;
+            &nbsp;
+            <li id="tv">TV-Video-Audio</li>
+            &nbsp;
+            &nbsp;
+            <li id="tablet">Tablets</li>
+            &nbsp;
+            &nbsp;
+            <li id="land">Land & Plots</li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <div id="img"><img src="https://images.olx.com.pk/thumbnails/245178240-800x600.webp"></div>
+
+
+
+
+
+
+    <div id="arrow">&#8595;</div>
+
+
+
+
+
+    <div>
+        <h5 id="h5">Fresh Recommendations</h5>
+    </div>
+
+
+
+
+
+
+
+    <div class="container-fluid">
+
+        <div id="realme"><img id="imgrealme" src="https://images.olx.com.pk/thumbnails/269857858-240x180.webp" alt="">
+        </div><br>
+        <div id="para1">
+            <p> Realme c3 3.32Gb ram </p>
+            <p style="font-weight: bold;">Rs.18,500</p>
+            <p style="color: gray; font-size:x-small;">North Karachi,Karachi - 1 Minute Ago</p>
+        </div>
+
+
+        <div id="plot"><img id="plotimg" src="https://images.olx.com.pk/thumbnails/266695088-240x180.webp" alt="">
+        </div><br>
+        <div id="para2">
+            <p> 16 marla lower portion for rent
+            </p>
+            <p style="font-weight: bold; font-size: small;">Rs.50,000</p>
+            <p style="color: gray; font-size:x-small; ">Audit and Account housing society, Lahore</p>
+        </div>
+
+
+        <div id="wagonr"><img id="imgwagonr" src="https://images.olx.com.pk/thumbnails/269728259-240x180.webp" alt="">
+        </div><br>
+        <div id="para3">
+            <p> Suzuki Wagon R Japanese </p>
+            <p style="font-weight: bold;">Rs.2,500,000
+                <br>
+            <p style="margin-bottom:-20px;
+            margin-top:-10px;">70,000 kpm . 2017 </p>
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Faislabad, Punjab . 2 days Ago</p>
+        </div>
+
+
+
+        <div id="wagonr"><img id="imgwagonr" src="https://images.olx.com.pk/thumbnails/268285951-240x180.webp" alt="">
+        </div><br>
+        <div id="para3">
+            <p> Toyota Vitz 2006/2011</p>
+            <p style="font-weight: bold;">Rs.1,650,000
+                <br>
+            <p style="margin-bottom:-20px;
+            margin-top:-10px;">180,000 kpm . 2006 </p>
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Swabi, Khyber Pakhtunkwa . 6 days Ago</p>
+        </div>
+
+
+
+        <div id="wagonr"><img id="imgwagonr" src="https://images.olx.com.pk/thumbnails/107675366-240x180.webp" alt="">
+        </div><br>
+        <div id="para3">
+            <p> Car Shampoo Foaming Tank</p>
+            <p style="font-weight: bold;">Rs.18,000
+    
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Brandreth Road, Lahore . 2 weeks Ago</p>
+        </div>
+
+
+
+
+
+        <div id="wagonr"><img id="imgwagonr" src="https://images.olx.com.pk/thumbnails/270346438-240x180.webp" alt="">
+        </div><br>
+        <div id="para3">
+            <p> A good condition Bike For Sale</p>
+            <p style="font-weight: bold;">Rs.34,000
+    
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Satellite Town, Rawalpindi . 1 month ago</p>
+        </div>
+
+
+
+        <div id="Honda"><img id="imghonda" src="https://images.olx.com.pk/thumbnails/268903177-240x180.webp" alt="">
+        </div><br>
+        <div id="para4">
+            <p> Honda BR-V 2018</p>
+            <p style="font-weight: bold;">Rs.3,050,000
+                <p style="margin-bottom:-20px;
+                margin-top:-10px;">99,000 km . 2018 </p>
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Saddar ,Lahore . 4 days ago</p>
+        </div>
+
+
+
+
+     <div style="background-color: rgb(20, 117, 245); width: 200px;height: 250px;  position: absolute;
+     left: 265px; top: 695px;">
+        
+ <h6 style="font-weight: bold; color: white; text-align: center; padding-top: 10px;">Want To See Your Stuff <br> here?</h6>
+<p style="color: white; text-align: center; ">Make some extra cash by selling things in your community. Go On, it's quick and easy. </p>
+<button style="border-color: white; background-color:  rgb(20, 117, 245)  ; color: white; margin-left: 47px;">Start Selling</button>
+     </div>
+
+
+
+
+        <div id="straightner"><img id="imgstraightener" src="https://images.olx.com.pk/thumbnails/254020888-240x180.webp" alt="">
+        </div><br>
+        <div id="para5">
+            <p> straightner</p>
+            <p style="font-weight: bold;">Rs.3,000
+    
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Saddar ,Lahore . 6 days ago</p>
+        </div>
+
+
+        <div id="iphone"><img id="imgiphone" src="https://images.olx.com.pk/thumbnails/221472059-240x180.webp" alt="">
+        </div><br>
+        <div id="para6">
+            <p>Iphone 8 plus white</p>
+            <p style="font-weight: bold;">Rs.46,999
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Sialkot, Punjab . 1 minute Ago </p>
+        </div>
+
+
+
+
+        <div id="samsung"><img id="imgsamsung" src="https://images.olx.com.pk/thumbnails/270668792-240x180.webp" alt="">
+        </div><br>
+        <div id="para7">
+            <p>Samsung Galaxy A33</p>
+            <p style="font-weight: bold;">Rs.68,000
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Habib Homes, Lahore . 3 hours Ago </p>
+        </div>
+        
+
+
+
+
+
+
+        <div id="redmi"><img id="imgredmi" src="https://images.olx.com.pk/thumbnails/270668788-400x300.webp" alt="">
+        </div><br>
+        <div id="para8">
+            <p>Redmi Poco M3</p>
+            <p style="font-weight: bold;">Rs.2500
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Sialkot, Punjab . 1 minute Ago </p>
+        </div>
+
+
+
+        <div id="lg"><img id="imglg" src="https://images.olx.com.pk/thumbnails/270681329-400x300.webp" alt="">
+        </div><br>
+        <div id="para9">
+            <p>LG 24inch</p>
+            <p style="font-weight: bold;">Rs.5,000
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Thokar Niaz Baig, Lahore . 23 hours ago</p>
+        </div>
+
+
+
+
+        <div id="curtain"><img id="imgcurtain" src="https://images.olx.com.pk/thumbnails/265422622-400x300.webp" alt="">
+        </div><br>
+        <div id="para10">
+            <p>Curtains</p>
+            <p style="font-weight: bold;">Rs.25,000
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">PECHS, Karachi . 2 weeks ago</p>
+        </div>
+
+
+
+        <div id="cock"><img id="imgcock" src="https://images.olx.com.pk/thumbnails/270685912-400x300.webp" alt="">
+        </div><br>
+        <div id="para11">
+            <p>Aseel cock</p>
+            <p style="font-weight: bold;">Rs.4,000
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Shah Mansur Township, Swabi . 22 hours ago
+                </p>
+        </div>
+
+
+
+
+
+        <div id="light"><img id="imglight" src="https://images.olx.com.pk/thumbnails/269473916-240x180.webp" alt="">
+        </div><br>
+        <div id="para12">
+            <p>grill light</p>
+            <p style="font-weight: bold;">Rs.2,500
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Saddar, Karachi . 3 days ago
+                </p>
+        </div>
+
+
+
+
+        <div id="chair"><img id="imgchair" src="https://images.olx.com.pk/thumbnails/263798054-240x180.webp" alt="">
+        </div><br>
+        <div id="para13">
+            <p>Unique Chair</p>
+            <p style="font-weight: bold;">Rs.22,500
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Nazimabad, Karachi . 4 weeks ago
+                </p>
+        </div>
+
+
+
+
+
+
+        
+        <div id="freezer"><img id="imgfreezer" src="https://images.olx.com.pk/thumbnails/270699172-240x180.webp" alt="">
+        </div><br>
+        <div id="para14">
+            <p>Freezer For Sale</p>
+            <p style="font-weight: bold;">Rs.28,000
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Railway Office Flat, Lahore . 23 hours ago
+                </p>
+        </div>
+
+
+
+        <div id="vivo"><img id="imgvivo" src="https://images.olx.com.pk/thumbnails/270699166-240x180.webp" alt="">
+        </div><br>
+        <div id="para15">
+            <p>vivo y11</p>
+            <p style="font-weight: bold;">Rs.18,500
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Sawera Chowk, Multan . 23 hours ago
+                </p>
+        </div>
+
+
+
+
+
+
+        <div id="c9"><img id="imgc9" src="https://images.olx.com.pk/thumbnails/270699056-240x180.webp" alt="">
+        </div><br>
+        <div id="para16">
+            <p>Redmi 9C</p>
+            <p style="font-weight: bold;">Rs.15,500
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Faislabad, Punjab . 23 hours ago
+                </p>
+        </div>
+
+
+
+
+        <div id="canon"><img id="imgcanon" src="https://images.olx.com.pk/thumbnails/270699102-240x180.webp" alt="">
+        </div><br>
+        <div id="para17">
+            <p>canon 85mm 1.8</p>
+            <p style="font-weight: bold;">Rs.31,000
+                
+            </p>
+
+            <p style="color: gray; font-size:x-small;">Shah Faisal Colony, Karachi . 23 hours ago
+                </p>
+        </div>
+
+
+
+
+
+        <button id="load">Load More</button>
+
+
+
+
+<div  style="position: relative;bottom: 250px;"><img src="https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp" alt=""></div>
+
+<div style="position: relative;bottom: 450px; left: 435px;">
+
+    <img src="./Screenshot 2022-08-01 183535.png" alt="">
+</div>
+
+
+
+
+    </div>
+
+
+<footer style="background-color:rgb(240, 234, 234) ; position: relative;top: -455px; height: 250px;">
+    <div><h6 style="color: rgb(21, 78, 35); border: 0px;">Popular Categories</h6>
+    <p style="font-size: 13px;">Cars</p>
+    <p style="font-size: 13px;">Flats For Rent</p>
+    <p style="font-size: 13px;">Mobile Phones</p>
+    <p style="font-size: 13px;">Jobs</p>
+    
+</div>
+
+
+
+
+
+<div  style="position: relative; left: 180px; top: -170px; "><h6 style="color: rgb(21, 78, 35); border: 0px;">Trending Searches</h6>
+    <p style="font-size: 13px;">Bikes </p>
+    <p style="font-size: 13px;">Watches</p>
+    <p style="font-size: 13px;">Books</p>
+    <p style="font-size: 13px;">Dogs</p>
+    
+</div>
+
+
+
+<div style="position: relative; left: 350px;top: -337px; "><h6 style="color: rgb(21, 78, 35); border: 0px;">About Us</h6>
+    <p style="font-size: 13px;">About EMPG </p>
+    <p style="font-size: 13px;">OLX Blog</p>
+    <p style="font-size: 13px;">Contact Us</p>
+    <p style="font-size: 13px;">OLX For Business</p>
+    
+</div>
+
+
+
+<div style="position: relative; left: 500px;top: -505px;"><h6 style="color: rgb(21, 78, 35); border: 0px;">OLX</h6>
+    <p style="font-size: 13px;">Help </p>
+    <p style="font-size: 13px;">Sitemap</p>
+    <p style="font-size: 13px;">Terms Of Use</p>
+    <p style="font-size: 13px;">Privacy Policy</p>
+    
+</div>
+
+
+<div  style="position: relative; left: 650px;top: -675px;"><h6 style="color: rgb(21, 78, 35); border: 0px;">Follow Us</h6>
+    <p><img width="20px" height="20px" src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg" alt="">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="20px" height="20px"  src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" alt="">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img  width="20px" height="20px" src="https://www.olx.com.pk/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg" alt="">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="20px" height="20px"  src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg" alt="">
+<br><br>
+<img width="100px" height="60px" src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" alt="">
+&nbsp;&nbsp;
+<img width="100px" height="60px"  src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="">
+&nbsp;&nbsp;
+<img width="100px" height="60px"  src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="">
+
+</p>
+  
+    
+</div>
+</footer>
+
+
+
+
+    
+    <a href="#"><button id="uparrow">&#129045;</button>
+    </a>
+
+
+<div style="background-color: rgb(14, 83, 45); width: 100%; height: 50px; position: relative;top: -500px; z-index: -1;" >
+<p style="color: white; padding-left: 700px; padding-top: 15px;"> Free classied in Pakistan . c 2006-2022 OLX</p></div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+
+</html>

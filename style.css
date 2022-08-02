@@ -1,0 +1,784 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    min-height: 100%;
+    
+}
+
+
+li {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#olx {
+    width: 32px;
+    height: 26px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+#property {
+    border-radius: 50%;
+    width: 25px;
+    height: 30px;
+
+}
+
+#motor {
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#property:hover {
+    color: black;
+}
+
+#motor:hover {
+    color: black;
+}
+
+
+
+#olx2 {
+    width: 57px;
+    height: 43px;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+
+#select1 {
+    background-image: url(https://www.bing.com/th?id=OIP._RTO9yp1xH5aQA0vS7fpHAHaHW&w=250&h=249&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 5px;
+    padding-left: 25px;
+    width: 270px;
+    height: 47px;
+    border: 2.5px solid rgb(21, 78, 35);
+    border-radius: 5px;
+
+
+}
+
+option {
+    font-size: 15px;
+}
+
+#location {
+    color: rgb(0, 68, 255);
+    font-family: Happy Camper;
+    font-size: 15px;
+
+}
+
+#choose {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: gray;
+    font-size: 10px;
+}
+
+
+#input {
+    background-image: url(https://th.bing.com/th/id/OIP.zUEkF9r69txivUJsNQ3M0wHaHa?w=181&h=181&c=7&r=0&o=5&pid=1.7);
+    background-repeat: no-repeat;
+    background-size: 43px;
+    background-position: right;
+    padding-right: 43px;
+    margin-top: -63px;
+    margin-left: 389px;
+    width: 400px;
+    height: 47px;
+    border: 2.5px solid rgb(21, 78, 35);
+    border-radius: 5px;
+}
+
+
+h6 {
+    color: rgb(21, 78, 35);
+    border-bottom: 2px solid rgb(21, 78, 35);
+    font-weight: bold;
+}
+
+#button1 {
+    border: 0px;
+    background-color: white;
+    margin-top: -55px;
+    margin-left: 810px;
+}
+
+h6:hover {
+    border-bottom: 0px;
+}
+
+#login {
+    width: 10px;
+    height: 10px;
+}
+
+#button2 {
+    background-color: white;
+    margin-top: -60px;
+    margin-left: 880px;
+    border-radius: 15px;
+    border-color: blue yellow green yellow;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(21, 78, 35);
+}
+
+
+#top {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.categories {
+    margin-top: 120px;
+
+
+}
+
+#all {
+    font-size: small;
+    font-weight: bold;
+    color: rgb(21, 78, 35);
+}
+
+#mobile {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#cars {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#motorcycle {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#house {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#tv {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#tablet {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#land {
+    font-size: small;
+    font-weight: lighter;
+}
+
+
+#img {
+    overflow-x: scroll;
+    white-space: nowrap;
+
+}
+
+
+
+
+#arrow {
+    height: 20px;
+    width: 20px;
+    margin-top: -245px;
+    margin-left: 120px;
+}
+
+
+
+#h5 {
+    color: rgb(21, 78, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+#realme {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    margin-left: 15px;
+    background-color: black;
+    margin-top: 15px;
+}
+
+
+#imgrealme {
+    width: 60%;
+    height: 60%;
+    margin-left: 40px;
+}
+
+#para1 {
+    margin-top: -124px;
+    margin-left: 16px;
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+
+#plot {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    margin-left: 15px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+
+#plotimg {
+    width: 100%;
+    height: 60%;
+}
+
+#para2 {
+    margin-top: -124px;
+    margin-left: 16px;
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+
+
+#wagonr {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    margin-left: 15px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+
+#imgwagonr {
+    width: 100%;
+    height: 60%;
+}
+
+#para3 {
+    margin-top: -124px;
+    margin-left: 16px;
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+
+#honda {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 265px;
+    top: 436px;
+    background-color: black;
+
+}
+
+#imghonda {
+    width: 100%;
+    height: 60%;
+}
+
+
+
+#para4 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 266px;
+    top: 586px;
+}
+
+
+#straightner {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 265px;
+    top: 953px;
+    background-color: black;
+}
+
+#imgstraightener {
+    width: 100%;
+    height: 60%;
+}
+
+
+
+#para5 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 266px;
+    top: 1103px;
+}
+
+
+
+#iphone {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 265px;
+    top: 1212px;
+    background-color: black;
+}
+
+
+#imgiphone {
+    width: 100%;
+    height: 60%;
+}
+
+
+#para6 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 266px;
+    top: 1362px;
+}
+
+
+
+#samsung {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 265px;
+    top: 1470px;
+    background-color: black;
+}
+
+#imgsamsung {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para7 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 266px;
+    top: 1620px;
+}
+
+
+
+#redmi {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 503px;
+    top: 436px;
+    background-color: black;
+}
+
+
+#imgredmi {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+
+#para8 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 504px;
+    top: 586px;
+}
+
+
+
+
+#lg {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 503px;
+    top: 695px;
+    background-color: black;
+}
+
+#imglg {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para9 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 504px;
+    top: 844.9px;
+}
+
+
+#curtain {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 503px;
+    top: 953px;
+    background-color: black;
+}
+
+
+#imgcurtain {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+
+
+
+#para10 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 504px;
+    top: 1103px;
+}
+
+
+
+#cock {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 503px;
+    top: 1212px;
+    background-color: black;
+}
+
+
+#imgcock {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para11 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 504px;
+    top: 1362px;
+}
+
+
+
+
+#light {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 503px;
+    top: 1470px;
+    background-color: black;
+}
+
+#imglight {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para12 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 504px;
+    top: 1620px;
+}
+
+
+
+
+#chair {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 740px;
+    top: 436px;
+    background-color: black;
+}
+
+#imgchair {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para13 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 741px;
+    top: 586px;
+}
+
+
+
+
+
+
+#freezer {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 740px;
+    top: 696px;
+    background-color: black;
+}
+
+#imgfreezer {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para14 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 741px;
+    top: 845px;
+}
+
+
+
+
+#vivo {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 740px;
+    top: 953px;
+    background-color: black;
+}
+
+#imgvivo {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para15 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 741px;
+    top: 1103px;
+}
+
+#c9 {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 740px;
+    top: 1212px;
+    background-color: black;
+}
+
+
+#imgc9 {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para16 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 741px;
+    top: 1362px;
+}
+
+
+
+
+#canon {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 740px;
+    top: 1470px;
+    background-color: black;
+}
+
+
+#imgcanon {
+    width: 80%;
+    height: 60%;
+    padding-left: 40px;
+}
+
+#para17 {
+    background-color: white;
+    width: 197.6px;
+    height: 98.5px;
+    color: rgb(21, 78, 35);
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 741px;
+    top: 1620px;
+}
+
+
+
+
+#load {
+    color: rgb(21, 78, 35);
+    border-radius: 4px;
+    border-color: rgb(21, 78, 35);
+    position: relative;
+    bottom: 300px;
+    left: 425px;
+    height: 40px;
+}
+
+#load:hover {
+    border: 5px solid rgb(21, 78, 35);
+}
+
+
+#uparrow {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -452px;
+    left: 5px;
+
+}
